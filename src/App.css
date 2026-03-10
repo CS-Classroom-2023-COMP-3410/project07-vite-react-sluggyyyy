@@ -1,0 +1,59 @@
+/* nav links */
+.nav-links {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-links button {
+  cursor: pointer;
+}
+
+.nav-links button.active {
+  font-weight: bold;
+}
+
+/* product cards */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.product-card {
+  border: 1px solid black;
+  padding: 10px;
+  width: 180px;
+}
+
+/* cart summary on every page */
+.cart-summary {
+  margin-top: 30px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.cart-summary ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-summary li {
+  margin-bottom: 5px;
+}
+
+/* cart page */
+.cart-item {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item-controls {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
